@@ -3,7 +3,7 @@ import folder_paths
 from .inference import MuseTalk_INFER
 from .inference_realtime import Infer_Real_Time
 from pydub import AudioSegment
-from moviepy.editor import VideoFileClip,AudioFileClip
+from moviepy import VideoFileClip,AudioFileClip
 
 parent_directory = os.path.dirname(os.path.abspath(__file__))
 input_path = folder_paths.get_input_directory()
